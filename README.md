@@ -3,15 +3,7 @@ Lightning Web Components and Salesforce Data:  Use Lightning Data Service to Wor
 
 
 contactCreator.html: 
-<template>
-    <lightning-card>
-        <lightning-record-form
-            object-api-name={objectApiName}
-            fields={fields}
-            onsuccess={handleSuccess}>
-        </lightning-record-form>
-    </lightning-card>
-</template>
+CHECK trailhead solution.txt FILE FOR ALL CODE NEEDED
 
 contactCreator.js:
 
