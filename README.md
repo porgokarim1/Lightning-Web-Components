@@ -1,9 +1,17 @@
-
-Lightning Web Components and Salesforce Data:  Use Lightning Data Service to Work with Data
+Lightning Web Components and Salesforce Data 
+Use Lightning Data Service to Work with Data :
 
 
 contactCreator.html: 
-CHECK trailhead solution.txt FILE FOR ALL CODE NEEDED
+<template>
+    <lightning-card>
+        <lightning-record-form
+            object-api-name={objectApiName}
+            fields={fields}
+            onsuccess={handleSuccess}>
+        </lightning-record-form>
+    </lightning-card>
+</template>
 
 contactCreator.js:
 
